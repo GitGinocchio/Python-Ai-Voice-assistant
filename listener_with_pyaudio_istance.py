@@ -126,11 +126,11 @@ class listener:
 
 
 #FILE = fr"{str(path)}\%Temp%\response.wav"
-#sp = Speaker(fp=FILE,lang='it',device=None,tld='it',rfa=True)
+#sp = Speaker(fp=FILE,lang='en',device=None,tld='com',rfa=True)
 
 
-#index = get_device_index_by_name("Microfono (VIRO Plus)")
+#index = get_device_index_by_name("YOUR MICROPHONE")
 #l = listener(spkrclass=sp)
 
-#output, precision = l.listen(question="sto ascoltando")
+#output, precision = l.listen(question="YOUR TEXT HERE")
 #print(output, precision)
